@@ -1,3 +1,5 @@
+![Lab3 gameview screenshot](gameview.png)
+
 The aim of the second lab was to create a reaction time tester, similar to
 https://www.humanbenchmark.com/tests/reactiontime
 
