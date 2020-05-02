@@ -24,4 +24,4 @@ The LPC interface works by receiving commands and sending back the corresponding
 After sending the desired command, the LPC chip sends back the sensor reading. The simulation itself is rather dumb. The sensor's reading is chosen using a randomizing formula appropriate for the given sensor in the given environment. The randomizing formulas themselves don't take into consideration the time passed since the last performed measure nor the time of the day. For example, the PAR sensor, furthermore, the "normal environment" is an environment of normal greenhouse plant growth - not the ideal environment for growing seeds, for example).
 <br />
 <br />
-However, ror testing the VI, the simulation is perfectly sufficient.
+However, for testing the VI, the simulation is perfectly sufficient.
