@@ -5,7 +5,7 @@ I decided to have the imaginary home contain a greenhouse, because I would be ab
 home monitoring system would keep log of a wine cellar's temperature and a refridgerator's temperature.
 <br />
 <br />
-![Lab5 Home Monitoring System screenshot](HomeMontioringSystem.png)
+![Lab5 Home Monitoring System screenshot](HomeMonitoringSystem.png)
 <br />
 <br />
 The requesting of the sensor readings happens using UART to communicate with a centralized interface between the frontend VI and the backend. I decided to build a simulator with an LPC1549 microcontroller. The LPC code I used to simulate the retreival of the sensor reading is included in the LPC1549Code -directory.
