@@ -8,7 +8,7 @@ home monitoring system would keep log of a wine cellar's temperature and a refri
 ![Lab5 Home Monitoring System screenshot](HomeMonitoringSystem.png)
 <br />
 <br />
-The requesting of the sensor readings happens using UART to communicate with a centralized interface between the frontend VI and the backend. I decided to build a simulator with an LPC1549 microcontroller. The LPC code I used to simulate the retreival of the sensor reading is included in the LPC1549Code -directory.
+The requesting of the sensor readings is achieved via UART by communicating with a centralized interface between the frontend VI and the backend. I decided to build a simulator with an LPC1549 microcontroller. The LPC code I used to simulate the retreival of the sensor reading is included in the LPC1549Code -directory.
 <br />
 <br />
 The LPC interface works by receiving commands and sending back the corresponding sensor's reading. The commands that can be sent are:
